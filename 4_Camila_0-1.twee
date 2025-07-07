@@ -1,0 +1,578 @@
+:: StoryTitle
+Camila
+
+
+:: StoryData
+{
+  "ifid": "506AB948-1B64-423F-A11C-FC66DD5708B1",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Amiga1 {"position":"200,0","size":"100,100"}
+<h2>Conflicto con la Amiga</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Esta escena transcurre en una sala de orientación con luz tenue: se escuchan murmullos de otros estudiantes y el tic-tac suave de un reloj de pared.*
+
+La orientadora la escucha, pero Camila no logra expresar completamente lo que siente. Sale frustrada, pero logra evitar un conflicto mayor.
+
+Más tarde, su mejor amiga la busca para hablar. Camila recuerda una pelea reciente y siente un miedo intenso al abandono. Su corazón late fuerte.
+
+**¿Cómo reacciona Camila?**
+
+[[A) Reclamarle con enojo por la pelea anterior->Amiga1Mal]]
+[[B) Expresar su tristeza y pedir disculpas->Hogar1]]
+
+---
+
+
+:: Amiga1Mal {"position":"425,100","size":"100,100"}
+<h2>Discusión Intensa</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se oyen voces elevadas y un silencio incómodo cuando termina la discusión; el eco de los pasos alejándose resuena en el pasillo.*
+
+Camila explota emocionalmente y le reclama todo a su amiga de manera agresiva.
+
+<div class="consecuencia">
+**Consecuencia:** Su amiga se siente atacada y se aleja dolida. Camila se queda sola, sintiéndose incomprendida y abandonada. El miedo que tenía se ha hecho realidad.
+</div>
+
+[[Reintentar esta situación->Amiga1]]
+
+---
+
+
+:: Amiga2 {"position":"725,425","size":"100,100"}
+<h2>Amistad Revisitada</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# El ambiente es tranquilo; se escucha un ligero viento moviendo las hojas de los árboles fuera de campo, y pasos suaves acercándose.*
+
+<div class="progreso">**Herramientas terapéuticas disponibles**</div>
+
+Camila toma una respiración profunda y piensa: "Siento rabia y tristeza. Creo que es paranoia, no necesariamente están hablando de mí." Este simple reconocimiento la calma significativamente.
+
+Más tarde, su amiga se acerca para hablar sobre algo. Camila siente la familiar tensión, pero recuerda las técnicas de regulación emocional.
+
+**¿Qué hace Camila?**
+
+[[A) Aplicar regulación emocional (respirar, pensar antes de responder)->Hogar2]]
+[[B) No aplicar herramienta y responder con hostilidad->Amiga2Mal]]
+
+---
+
+
+:: Amiga2Mal {"position":"900,450","size":"100,100"}
+<h2>Patrón Repetido</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*Se percibe un leve golpe en la mesa y el suspiro herido de su amiga al escuchar las palabras de Camila.*
+
+A pesar de tener las herramientas, Camila responde con hostilidad por costumbre.
+
+<div class="consecuencia">
+**Consecuencia:** Su amiga se siente herida y confundida. Camila se da cuenta de que tenía la oportunidad de actuar diferente pero eligió el camino familiar. Se siente decepcionada de sí misma.
+</div>
+
+[[Reintentar con las herramientas->Amiga2]]
+
+---
+
+
+:: Colegio1 {"position":"100,125","size":"100,100"}
+<h2>Conflicto en el Colegio</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se escuchan risas y murmullos en el pasillo; algunos pupitres se arrastran y se oye el eco de pasos apresurados.*
+
+Camila escucha a un grupo de compañeros reírse. Siente que hablan de ella. Su corazón se acelera, la rabia y la tristeza se mezclan. Las emociones la abruman por completo.
+
+**¿Qué decide hacer Camila?**
+
+[[A) Enfrentar a los compañeros de forma impulsiva->Colegio1Mal]]
+[[B) Buscar ayuda en la orientadora->Amiga1]]
+
+---
+
+
+:: Colegio1Mal {"position":"275,125","size":"100,100"}
+<h2>Reacción Impulsiva</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Un grito estridente corta el murmullo de los estudiantes y se percibe el crujido de un cuaderno estrellándose contra la pared.*
+
+Camila no puede contenerse más. Grita y lanza su cuaderno contra la pared.
+
+<div class="consecuencia">
+**Consecuencia:** El ambiente se tensa inmediatamente. La profesora la regaña severamente y la envía a la coordinación. Todos la miran con una mezcla de sorpresa y juicio. Camila se siente peor que antes.
+</div>
+
+[[Reintentar esta situación->Colegio1]]
+
+---
+
+
+:: Colegio2 {"position":"225,250","size":"100,100"}
+<h2>Colegio Revisitado</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*Se escuchan voces bajas y el roce de mochilas mientras los compañeros pasan. Un susurro lejano se mezcla con el zumbido del fluorescente.*
+
+<div class="progreso">**Herramientas terapéuticas disponibles**</div>
+
+De nuevo en el colegio, Camila escucha risas de un grupo de compañeros. Inmediatamente siente la familiar oleada de emociones: rabia, tristeza, paranoia. Pero esta vez, algo es diferente.
+
+Recuerda las palabras de su psicóloga sobre la conciencia emocional.
+
+**¿Qué decide hacer Camila?**
+
+[[A) Aplicar conciencia emocional (reconocer y nombrar lo que siente)->Amiga2]]
+[[B) No aplicar herramienta y reaccionar como antes->Colegio2Mal]]
+
+---
+
+
+:: Colegio2Mal {"position":"500,425","size":"100,100"}
+<h2>Oportunidad Perdida</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se oye un portazo y carcajadas irónicas que se alejan, dejando un silencio pesado en el corredor.*
+
+Camila ignora lo que ha aprendido y reacciona impulsivamente como antes.
+
+<div class="consecuencia">
+**Consecuencia:** Grita y hace una escena. Se da cuenta inmediatamente de que tenía las herramientas para manejar la situación de manera diferente, pero no las usó. Se siente frustrada consigo misma.
+</div>
+
+[[Reintentar con las herramientas->Colegio2]]
+
+---
+
+
+:: Crisis {"position":"925,150","size":"100,100"}
+<h2>Crisis Emocional</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# La noche es silenciosa salvo por el eco lejano de coches pasando y el murmullo del viento junto al puente; la luna apenas ilumina el pavimento húmedo.*
+
+La conversación con su pareja fue difícil y dolorosa, pero mostró empatía. Sin embargo, Camila se siente abrumada por todo lo que ha vivido.
+
+Camila camina sola por la ciudad, sintiéndose vacía y sin salida. Las emociones intensas la han dejado agotada. Llega a un puente, abrumada por sus emociones, sintiendo que no hay escapatoria a este dolor constante.
+
+*# La pantalla se desvanece en negro. El peso de las emociones es insoportable. Pero algo cambia...*
+
+[[Continuar...->Terapia]]
+
+---
+
+
+:: DecisionMalTomada {"position":"300,700","size":"100,100"}
+<h2>Reflexión sobre el Progreso</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se escuchan las olas suaves de un río cercano y algunos grillos cantando en la distancia. Camila está sentada en un banco de madera, con las piernas abrazadas.*
+
+Camila reconoce sus emociones y trata de regularlas, pero cuando intenta comunicarse, sus palabras salen confusas y su pareja se siente desconcertada. No fue un desastre, pero tampoco fue efectivo.
+
+Después de la conversación, Camila reflexiona sobre lo sucedido. Se da cuenta de que aplicó parcialmente lo aprendido, pero aún le falta práctica.
+
+**¿Qué hace Camila con esta reflexión?**
+
+[[A) Reflexionar y aprender del error->FinalParcial]]
+[[B) Ignorar el aprendizaje y repetir el error->FinalNegativo]]
+
+---
+
+
+:: FinalNegativo {"position":"25,700","size":"100,100"}
+<h1>Final: Recaída y Nueva Oportunidad</h1>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se percibe un ambiente frío y vació: las luces de la sala de espera parpadean y un reloj hace tic-tac sin parar.*
+
+<div class="final-negativo">
+**Un paso atrás, pero no el final**
+
+Camila reacciona como antes del tratamiento. La relación se deteriora y ella experimenta una recaída emocional intensa. Se siente como si hubiera perdido todo el progreso.
+
+**Pero hay esperanza:** Su psicóloga le recuerda que las recaídas son parte del proceso de recuperación. "Cada recaída nos enseña algo nuevo sobre nuestros patrones y fortalece nuestra determinación."
+
+Camila regresa a terapia con una comprensión más profunda de sus desafíos. Sabe que la recuperación es posible y que merece una vida plena y feliz.
+</div>
+
+[[Comenzar nueva historia->Start]]
+
+---
+
+
+:: FinalParcial {"position":"175,575","size":"100,100"}
+<h1>Final: Progreso Parcial</h1>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se escucha una suave melodía instrumental de fondo y luz cálida filtrándose por una ventana cercana.*
+
+<div class="final-parcial">
+**Camila está en el camino correcto**
+
+Camila se da cuenta de que el progreso no es una línea recta. Reconoce: "No lo hice perfecto, pero lo hice mejor que antes. El progreso es un camino, no un destino."
+
+**Resultado:** Camila regresa a terapia con mayor autoconciencia. Ahora entiende que tener herramientas no significa usarlas perfectamente desde el inicio. Cada intento es una oportunidad de aprendizaje.
+
+Con esperanza renovada, Camila continúa trabajando en sí misma, sabiendo que cada día puede ser mejor que el anterior.
+</div>
+
+[[Comenzar nueva historia->Start]]
+
+---
+
+
+:: FinalPositivo {"position":"300,475","size":"100,100"}
+<h1>Final: Manejo Efectivo y Vida Estable</h1>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Luz dorada de la tarde llena la habitación; se oye de fondo un suave murmullo de conversación tranquila y un reloj de péndulo marcando el ritmo.*
+
+<div class="final-positivo">
+**Camila lo logró**
+
+Primero, Camila reconoce sus emociones: "Siento pánico y miedo al abandono." Luego, respira profundamente y se calma. Finalmente, le dice a su pareja con claridad: "Entiendo que tengas dudas. Yo también las tengo a veces. ¿Podemos hablar sobre qué necesitamos ambos para sentirnos seguros en esta relación?"
+
+**Resultado:** La conversación es honesta y constructiva. Su pareja aprecia la madurez emocional de Camila. La relación se fortalece y Camila experimenta una estabilidad emocional que no había sentido antes.
+
+Camila ha aprendido que vivir con TLP no significa vivir sin esperanza. Con las herramientas adecuadas y práctica constante, puede tener relaciones sanas y una vida plena.
+</div>
+
+[[Comenzar nueva historia->Start]]
+
+---
+
+
+:: Herramientas {"position":"700,275","size":"100,100"}
+<h2>Adquisición de Herramientas Emocionales</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# En una sala de terapia iluminada con luz natural, se oyen pasos suaves en el pasillo y el sonido distante de una puerta abriéndose.*
+
+En las siguientes semanas, Camila asiste regularmente a terapia. En cada sesión aprende algo nuevo sobre sí misma y sobre cómo manejar sus emociones intensas.
+
+<div class="herramientas">
+**Herramientas aprendidas:**
+
+**Conciencia emocional:** Reconocer y nombrar las emociones antes de que la abrumen
+
+**Regulación emocional:** Técnicas de respiración y mindfulness para calmar la tormenta interior
+
+**Eficiencia interpersonal:** Comunicar necesidades de forma clara y constructiva
+</div>
+
+Ahora Camila tiene la oportunidad de enfrentar situaciones similares, pero esta vez con las herramientas que ha aprendido. ¿Las usará?
+
+[[Poner a prueba las herramientas aprendidas->Colegio2]]
+
+---
+
+
+:: Hogar1 {"position":"525,0","size":"100,100"}
+<h2>Conflicto en el Hogar</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se escucha el chirrido de una puerta al abrirse y música suave de fondo que proviene de la sala.*
+
+La conversación con su amiga fue incómoda, pero lograron mantener el vínculo. Camila se siente aliviada pero agotada emocionalmente.
+
+En casa, sus padres le preguntan por el colegio con genuina preocupación. Camila siente que no la entienden y que nunca podrán comprender lo que vive.
+
+**¿Qué hace Camila?**
+
+[[A) Gritar y encerrarse en su cuarto->Hogar1Mal]]
+[[B) Intentar explicar lo que siente (aunque le cuesta)->Pareja1]]
+
+---
+
+
+:: Hogar1Mal {"position":"725,0","size":"100,100"}
+<h2>Aislamiento</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Un fuerte portazo resuena y el silencio se impone en la casa, solo interrumpido por el latido acelerado de Camila.*
+
+Camila grita "No me entienden" y se encierra en su cuarto dando un portazo.
+
+<div class="consecuencia">
+**Consecuencia:** Se genera una discusión intensa. Sus padres se sienten rechazados y confundidos. Camila se queda sola en su cuarto, con una sensación profunda de incomprensión y soledad.
+</div>
+
+[[Reintentar esta situación->Hogar1]]
+
+---
+
+
+:: Hogar2 {"position":"650,750","size":"100,100"}
+<h2>Hogar Revisitado</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se oyen voces suaves de la familia conversando y el aroma a comida casera proviene de la cocina cercana.*
+
+<div class="progreso">**Herramientas terapéuticas disponibles**</div>
+
+Camila respira profundamente antes de responder. La conversación con su amiga fluye mucho mejor, y ambas se sienten más conectadas. Camila experimenta una sensación de logro.
+
+En casa, sus padres preguntan cómo está. Camila recuerda la herramienta de eficiencia interpersonal.
+
+**¿Qué hace Camila?**
+
+[[A) Aplicar eficiencia interpersonal (comunicar necesidades claramente)->Pareja2]]
+[[B) No aplicar herramienta y aislarse como antes->Hogar2Mal]]
+
+---
+
+
+:: Hogar2Mal {"position":"925,650","size":"100,100"}
+<h2>Retroceso</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# El reloj de pared hace tic-tac con fuerza, y la atmósfera se siente tensa y cargada de silencio.*
+
+Camila se aísla y evita la conversación con sus padres.
+
+<div class="consecuencia">
+**Consecuencia:** La tensión familiar aumenta. Sus padres se sienten rechazados y Camila se queda sola con sus emociones. Sabe que podría haber actuado diferente.
+</div>
+
+[[Reintentar con las herramientas->Hogar2]]
+
+---
+
+
+:: Pareja1 {"position":"700,150","size":"100,100"}
+<h2>Conflicto con la Pareja</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Luz tenue de la pantalla del teléfono ilumina el rostro de Camila; se oyen notificaciones suaves y un latido de corazón acelerado.*
+
+Sus padres no comprenden del todo lo que Camila intenta explicar, pero muestran preocupación genuina. Es un pequeño paso.
+
+Esa noche, su pareja le escribe un mensaje: "Necesito un poco de distancia para pensar en nosotros". Camila siente pánico inmediato y una tristeza abrumadora.
+
+**¿Cómo responde Camila?**
+
+[[A) Responder con reproches y amenazas de ruptura->Pareja1Mal]]
+[[B) Expresar cómo se siente, aunque le duela->Crisis]]
+
+---
+
+
+:: Pareja1Mal {"position":"900,0","size":"100,100"}
+<h2>Ruptura Abrupta</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se escucha el silencio tras el envío de los mensajes y el latido acelerado de Camila, seguido por el sonido de un mensaje de "visto".*
+
+Camila responde inmediatamente con mensajes llenos de reproches y amenazas.
+
+<div class="consecuencia">
+**Consecuencia:** Su pareja, asustada por la intensidad de la reacción, termina la relación abruptamente. Camila se siente completamente devastada y abandonada.
+</div>
+
+[[Reintentar esta situación->Pareja1]]
+
+---
+
+
+:: Pareja2 {"position":"400,900","size":"100,100"}
+<h2>Pareja Revisitada - Momento Decisivo</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# El sonido de las olas rompiendo suavemente en la orilla se mezcla con un cielo anaranjado al atardecer, creando un ambiente de calma a pesar de la tensión.*
+
+<div class="progreso">**Herramientas terapéuticas disponibles**</div>
+
+Camila les dice a sus padres: "Necesito que sepan que estoy pasando por algo difícil, pero estoy trabajando en ello. Su apoyo significa mucho para mí." Sus padres la escuchan con más atención y comprensión.
+
+Esa noche, su pareja le comunica algunas dudas sobre la relación. Camila siente la familiar oleada de pánico, pero ahora tiene herramientas.
+
+**Este es el momento más importante. ¿Cómo maneja Camila esta situación crucial?**
+
+[[A) Manejo efectivo: Aplicar todas las herramientas aprendidas->FinalPositivo]]
+[[B) Progreso parcial: Aplicar herramientas pero de forma imperfecta->DecisionMalTomada]]
+[[C) No aplicar herramientas y reaccionar como antes->FinalNegativo]]
+
+---
+
+
+:: Start {"position":"75,275","size":"100,100"}
+<h1>Camila</h1>
+<h2>Una historia interactiva sobre el Trastorno Límite de la Personalidad</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# Se percibe el sonido distante de pájaros cantando fuera y el timbre suave de la alarma despertando a Camila en una mañana clara.*
+
+Camila, una adolescente de 17 años, despierta sintiéndose abrumada. Últimamente, todo parece demasiado intenso: las críticas de sus compañeros, los altibajos con su mejor amiga, las discusiones en casa y la sensación de no encajar en ningún lado.
+
+No sabe que lo que vive tiene un nombre: **Trastorno Límite de la Personalidad**.
+
+[[Continuar con la historia de Camila->Colegio1]]
+
+---
+
+
+:: Terapia {"position":"1125,225","size":"100,100"}
+<h2>Terapia y Diagnóstico</h2>
+<div style="border:1px solid #000; width:200px; height:150px; margin-bottom:10px;"></div>
+*# La luz cálida entra por la ventana y se mezclan los susurros suaves de la sala de espera con el aroma a café recién hecho.*
+
+Camila está sentada en una consulta psicológica. La luz entra suavemente por la ventana, creando un ambiente de calma que no había sentido en mucho tiempo.
+
+<div class="terapia">
+**Psicóloga:** "Camila, lo que has estado viviendo tiene un nombre: Trastorno Límite de la Personalidad. No estás loca, no estás rota, y definitivamente no estás sola. Millones de personas viven con TLP y pueden tener vidas plenas y significativas."
+
+**Camila:** "¿Entonces... hay esperanza?"
+
+**Psicóloga:** "Absolutamente. Y vamos a trabajar juntas para darte las herramientas que necesitas."
+</div>
+
+(set: $hasTools to true)
+
+[[Comenzar el proceso terapéutico->Herramientas]]
+
+---
+
+
+:: StoryStylesheet [stylesheet]
+/* Estilos CSS para la historia */
+body {
+    font-family: Georgia, serif;
+    background: #e8f4fd;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+.passage {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #d5dbdb;
+}
+
+h1 {
+    color: #F0E1C4;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #F5E8E1;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #bdc3c7;
+    padding-bottom: 10px;
+}
+
+.consecuencia {
+    background: #fff3cd;
+    border: 2px solid #856404;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #856404;
+}
+
+.terapia {
+    background: #d4edda;
+    border: 2px solid #155724;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px 0;
+    color: #155724;
+}
+
+.herramientas {
+    background: #cce5ff;
+    border: 2px solid #004085;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    color: #004085;
+}
+
+.progreso {
+    background: #f3e5f5;
+    border: 2px solid #6a1b9a;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #6a1b9a;
+}
+
+.final-positivo {
+    background: #d4edda;
+    border: 3px solid #155724;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    color: #155724;
+}
+
+.final-parcial {
+    background: #fff3cd;
+    border: 3px solid #856404;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    color: #856404;
+}
+
+.final-negativo {
+    background: #f8d7da;
+    border: 3px solid #721c24;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    color: #721c24;
+}
+
+tw-link {
+    background: #3498db;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    border: 2px solid #2980b9;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+tw-link:hover {
+    background: #2980b9;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+tw-link:focus {
+    outline: 3px solid #f39c12;
+    outline-offset: 2px;
+}
+
+tw-link:visited {
+    color: #ffffff;
+    background: #5d6d7e;
+    border-color: #4a5568;
+}
+
+tw-link:visited:hover {
+    background: #4a5568;
+}
+
+@media (max-width: 600px) {
+    .passage {
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    tw-link {
+        padding: 10px 16px;
+        margin: 6px 2px;
+        font-size: 0.9em;
+    }
+}
