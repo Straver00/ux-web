@@ -1,0 +1,398 @@
+flowchart TD
+
+%% ==================== PARTE I ====================
+Start[Inicio: Camila en la cama] --> Sueno_Pesadilla[Pesadilla recurrente]
+
+subgraph Despertar[Escena: Despertar matutino]
+  Sueno_Pesadilla -->|Despertar de golpe| Despertar_Panico[Despierta en pánico]
+  Sueno_Pesadilla -->|Luchar en el sueño| Despertar_Agotada[Despierta agotada]
+  Sueno_Pesadilla -->|Intentar seguir durmiendo| Despertar_Negacion[Se queda en cama negando]
+  
+  Despertar_Panico --> C1_1_1[Colegio – Burlas en el pasillo]
+  Despertar_Agotada --> C1_1_2[Aula – Cambio de puesto]
+  Despertar_Negacion --> C1_1_3[Amistad – Rumores sobre Camila]
+end
+
+%% Capítulo 1 – Entorno social inmediato
+C1_1_1 -->|Enfrentar impulsivamente| Nueva_R1[Camila explota en clase]
+Nueva_R1 --> Nueva_R1B[Sale corriendo al baño llorando]
+Nueva_R1B --> C1_2_1[Mensaje de la pareja]
+
+C1_1_1 -->|Intentar integrarse| Nueva_R2[Camila finge reír con ellos]
+Nueva_R2 --> Nueva_R2B[Escucha un comentario hiriente]
+Nueva_R2B --> C1_4_1[Trabajo en grupo]
+
+C1_1_1 -->|Fingir que no pasa nada| Nueva_R3[Se muerde los labios para aguantar]
+Nueva_R3 --> C1_3_1[Discusión por notas]
+
+C1_1_1 -->|Buscar ayuda orientadora| Nueva_R4[Orientadora no está disponible]
+Nueva_R4 --> Nueva_R4B[Camila deambula por el colegio]
+Nueva_R4B --> C1_6_2[Encuentro con profesor]
+
+%% Capítulo 2 – Relaciones afectivas
+C1_2_1 -->|Mensajes intensos| Nueva_R5[La pareja la bloquea]
+Nueva_R5 --> Nueva_R5B[Camila entra en crisis]
+Nueva_R5B --> Nueva_R5C[Decide no ir a clase]
+Nueva_R5C --> C1_8_2[Puente crisis suicida]
+
+C1_2_1 -->|Esperar| Nueva_R6[Amiga la ve ansiosa]
+Nueva_R6 --> Nueva_R6B[Conversación breve de apoyo]
+Nueva_R6B --> C1_4_2[Fiesta integración]
+
+C1_2_1 -->|Inseguridad| Nueva_R7[Llora mientras camina al aula]
+Nueva_R7 --> C1_3_3[Escape hogar]
+
+C1_2_1 -->|Hablar amiga| Nueva_R8[Conversación en cafetería]
+Nueva_R8 --> C1_7_2[Visita universidad]
+
+%% Nueva conexión: C1_2_2[Cita tensa] --> C1_8_2[Puente crisis suicida]
+C1_2_2 --> C1_8_2
+
+%% Nueva conexión: C1_2_3[Amiga opina relación] --> C1_4_3[Elección universitaria]
+C1_2_3 --> C1_4_3
+
+%% Capítulo 3 – Familia
+C1_3_1 -->|Gritar| Nueva_R9[Discusión escala violentamente]
+Nueva_R9 --> Nueva_R9B[Vecinos escuchan y llaman a la policía]
+Nueva_R9B --> C1_3_3[Escape hogar]
+
+C1_3_1 -->|Llorar| Nueva_R10[Se encierra en su cuarto]
+Nueva_R10 --> C1_5_1[Noche de insomnio]
+
+C1_3_1 -->|Hablar con culpa| Nueva_R11[Padre se muestra frío]
+Nueva_R11 --> C1_6_3[Taller escritura/arte]
+
+C1_3_1 -->|Defenderse agresivo| Nueva_R12[Madre llora en silencio]
+Nueva_R12 --> C1_5_3[Autolesión]
+
+C1_3_2 -->|Callarse| Nueva_R12B[Silencio incómodo con psicólogo]
+Nueva_R12B --> C1_5_2[Recuerdo traumático]
+
+C1_3_2 -->|Decir lo que quieren| Nueva_R12C[Siente frustración interior]
+Nueva_R12C --> C1_7_3[Abandono escolar]
+
+C1_3_2 -->|Ser honesta| Nueva_R12D[Psicólogo toma nota en silencio]
+Nueva_R12D --> C1_6_1[Amigo inesperado]
+
+C1_3_3 -->|Dormir amiga| Nueva_R12E[Sueña con pelea familiar]
+Nueva_R12E --> C1_4_2[Fiesta integración]
+
+C1_3_3 -->|Vagar sola| Nueva_R12F[Camina bajo la lluvia]
+Nueva_R12F --> C1_8_2[Puente crisis suicida]
+
+C1_3_3 -->|Llamar alguien| Nueva_R12G[Responde su pareja sin ganas]
+Nueva_R12G --> C1_2_1[Mensaje de la pareja]
+
+%% Nueva conexión: C1_3_3[Escape hogar] --> C1_8_2[Puente crisis suicida]
+C1_3_3 --> C1_8_2
+
+%% Capítulo 4 – Vida académica
+C1_4_1 -->|Sabotear| Nueva_R13[Compañero la confronta]
+Nueva_R13 --> Nueva_R13B[Discusión tensa]
+Nueva_R13B --> C1_8_1[Silencio absoluto]
+
+C1_4_1 -->|Tomar control| Nueva_R14[Gana respeto del grupo]
+Nueva_R14 --> C1_4_3[Elección universitaria]
+
+C1_4_1 -->|Ceder callar| Nueva_R15[Se siente invisible]
+Nueva_R15 --> C1_5_1[Noche de insomnio]
+
+C1_4_1 -->|Unir grupo| Nueva_R16[Descubre afinidad con un compañero]
+Nueva_R16 --> C1_6_1[Amigo inesperado]
+
+C1_4_2 -->|Ir sola| Nueva_R16B[Siente vergüenza de su ropa]
+Nueva_R16B --> C1_2_2[Cita tensa]
+
+C1_4_2 -->|No ir| Nueva_R16C[Pasa la noche estudiando]
+Nueva_R16C --> C1_5_2[Recuerdo traumático]
+
+C1_4_2 -->|Ir con amiga| Nueva_R16D[Conversan de su futuro]
+Nueva_R16D --> C1_2_3[Amiga opina relación]
+
+C1_4_2 -->|Invitar pareja| Nueva_R16E[La pareja no confirma]
+Nueva_R16E --> C1_2_1[Mensaje de la pareja]
+
+%% Nueva conexión: C1_4_3[Elección universitaria] --> C1_8_2[Puente crisis suicida]
+C1_4_3 --> C1_8_2
+
+%% Capítulo 5 – Crisis personales
+C1_5_1 -->|Autolesionarse| Nueva_R17[Herida visible al día siguiente]
+Nueva_R17 --> Nueva_R17B[Profesora lo nota]
+Nueva_R17B --> C1_6_2[Encuentro con profesor]
+
+C1_5_1 -->|Llamar alguien| Nueva_R18[Nadie contesta]
+Nueva_R18 --> C1_2_1[Mensaje de la pareja]
+
+C1_5_1 -->|Escribir| Nueva_R19[Escribe un poema doloroso]
+Nueva_R19 --> C1_6_3[Taller escritura/arte]
+
+C1_5_1 -->|Salir caminar| Nueva_R20[Siente el frío de la madrugada]
+Nueva_R20 --> C1_8_1[Silencio absoluto]
+
+%% Nueva conexión: C1_5_2[Recuerdo traumático] --> C1_8_2[Puente crisis suicida]
+C1_5_2 --> C1_8_2
+
+%% Nueva conexión: C1_5_3[Autolesión] --> C1_8_2[Puente crisis suicida]
+C1_5_3 --> C1_8_2
+
+%% Capítulo 6 – Relaciones periféricas
+C1_6_1 -->|Rechazar| Nueva_R21[Siente culpa por rechazarlo]
+Nueva_R21 --> Nueva_R21B[Se aísla en el baño]
+Nueva_R21B --> C1_8_1[Silencio absoluto]
+
+C1_6_1 -->|Aceptar| Nueva_R22[Conversan sobre sus vidas]
+Nueva_R22 --> C1_7_1[Entrevista trabajo]
+
+C1_6_1 -->|Contar algo personal| Nueva_R23[Se sorprende de su apoyo]
+Nueva_R23 --> C1_2_3[Amiga opina relación]
+
+%% Nueva conexión: C1_6_3[Taller escritura/arte] --> C1_8_2[Puente crisis suicida]
+C1_6_3 --> C1_8_2
+
+%% Capítulo 7 – Elecciones futuro
+C1_7_1 -->|Mentir| Nueva_R24[Consigue el trabajo pero siente ansiedad]
+Nueva_R24 --> C1_8_2[Puente crisis suicida]
+
+C1_7_1 -->|Ser honesta| Nueva_R25[No la contratan pero se siente orgullosa]
+Nueva_R25 --> C1_2_2[Cita tensa]
+
+C1_7_1 -->|Mostrar ansiedad| Nueva_R26[Entrevistador la mira con pena]
+Nueva_R26 --> C1_5_2[Recuerdo traumático]
+
+%% Nueva conexión: C1_7_2[Visita universidad] --> C1_8_2[Puente crisis suicida]
+C1_7_2 --> C1_8_2
+
+%% Nueva conexión: C1_7_3[Abandono escolar] --> C1_8_2[Puente crisis suicida]
+C1_7_3 --> C1_8_2
+
+%% Capítulo 8 – Crisis terminal
+C1_8_1 -->|Ver series| Nueva_R27[Mira sin atención horas]
+Nueva_R27 --> C1_8_2
+
+C1_8_1 -->|Dormir días| Nueva_R28[Se despierta con dolor corporal]
+Nueva_R28 --> C1_8_2
+
+C1_8_1 -->|Salir sin rumbo| Nueva_R29[Camina sin destino por la ciudad]
+Nueva_R29 --> C1_8_2
+
+C1_8_2 -->|Saltar| Terapia_Inicio[Interludio: Primera sesión terapéutica]
+C1_8_2 -->|Llamar alguien| Nueva_R30[Llama llorando sin poder hablar]
+Nueva_R30 --> Terapia_Inicio
+C1_8_2 -->|Entrar urgencias| Nueva_R31[Llega a urgencias con mirada vacía]
+Nueva_R31 --> Terapia_Inicio
+
+%% ==================== BLOQUE TERAPIA Y FINALES ====================
+subgraph Bloque2[Terapia y finales]
+
+  Terapia_Inicio --> Sesion1[Sesión 1: Diagnóstico y conciencia emocional]
+  Sesion1 --> Sesion2[Sesión 2: Regulación emocional]
+  Sesion2 --> Sesion3[Sesión 3: Habilidades interpersonales]
+
+  Sesion3 --> Final_Integracion[Integración final]
+
+  Final_Integracion -->|Progreso estable| Final_Estable[Final: Estabilidad emocional]
+  Final_Integracion -->|Progreso lento| Final_Proceso[Final: Progreso en proceso]
+  Final_Integracion -->|Recaídas| Final_Recaidas[Final: Recaídas con manejo terapéutico]
+
+  Final_Recaidas --> Terapia_Reinicio[Retorno a terapia]
+  Terapia_Reinicio --> Sesion1
+end
+
+%% ESTILOS
+style Bloque1 fill:#FFE6E6,stroke:#D73027,stroke-width:2px
+style Bloque2 fill:#E6F3FF,stroke:#4292C6,stroke-width:2px
+style Despertar fill:#F0E6FF,stroke:#8B4A9C,stroke-width:2px
+
+
+
+Segunda version con mas sentido
+flowchart TD
+
+%% ==================== INICIO ====================
+Start[Inicio: Camila está en su cama] --> Pesadilla[Pesadilla recurrente: gritos, sombras, angustia]
+
+subgraph Despertar[Escena: Despertar matutino]
+  Pesadilla -->|Despierta sobresaltada| Panico[Camila se sienta jadeando]
+  Pesadilla -->|Lucha por despertar| Agotada[Camila se revuelca en sudor y abre los ojos]
+  Pesadilla -->|Intenta ignorarla| Negacion[Camila se tapa la cabeza con la almohada]
+
+  Panico --> Pasillo_Burlas[Colegio – Cruza pasillo lleno de murmullos y risas]
+  Agotada --> Aula_Cambio[Aula – Le cambian de puesto sin explicación]
+  Negacion --> Rumores[Recreo – Escucha rumores sobre ella mientras almuerza sola]
+end
+
+%% Continuación de "Aula – Le cambian de puesto sin explicación"
+Aula_Cambio -->|Quedarse callada| Invisible[Camila se siente invisible]
+Invisible --> Insomnio[Noche de insomnio sin poder conciliar el sueño]
+
+Aula_Cambio -->|Tomar la iniciativa| Gana_Respeto[Se gana el respeto del grupo]
+Gana_Respeto --> Eleccion_Uni[Empieza a pensar en su futuro académico]
+
+Aula_Cambio -->|Formar lazos| Afinidad_Compa[Descubre afinidad con un compañero]
+Afinidad_Compa --> Amigo_Inesperado[Se hace amiga de ese compañero]
+
+%% Continuación de "Recreo – Escucha rumores sobre ella mientras almuerza sola"
+Rumores -->|Sentirse mal| Llora_Camino[Camina al aula llorando]
+Llora_Camino --> Escape_Hogar[Decide irse del colegio y no volver a casa]
+
+Rumores -->|Buscar a su amiga| Habla_Cafeteria[Conversación en cafetería con su mejor amiga]
+Habla_Cafeteria --> Visita_Universidad[La amiga la invita a visitar la universidad]
+
+Rumores -->|Pedir ayuda| Busca_Orientadora[Va a la sala de orientación]
+Busca_Orientadora --> Orientadora_No_Esta[La orientadora no está disponible]
+Orientadora_No_Esta --> Vaga_Colegio[Camila deambula sin rumbo por el colegio]
+Vaga_Colegio --> Encuentro_Profe[Se topa con un profesor que la observa con preocupación]
+
+%% Capítulo 1 – Entorno social inmediato
+Pasillo_Burlas -->|Reaccionar con rabia| Estalla_Clase[Explota en clase]
+Estalla_Clase --> Llanto_Banio[Sale corriendo al baño y llora]
+Llanto_Banio --> Mensaje_Pareja[Suena el celular: mensaje de su pareja]
+
+Pasillo_Burlas -->|Fingir encajar| Sonrie_Falsa[Camila se ríe con ellos con incomodidad]
+Sonrie_Falsa --> Comentario_Hiriente[Escucha un comentario cruel que la descompone]
+Comentario_Hiriente --> Trabajo_Grupo[Cambio repentino: trabajo en grupo anunciado]
+
+Pasillo_Burlas -->|Ignorar| Tension_Interior[Se muerde los labios mientras baja la cabeza]
+Tension_Interior --> Discusion_Notas[Discusión con un compañero por una calificación]
+
+Pasillo_Burlas -->|Pedir ayuda| Busca_Orientadora
+Busca_Orientadora --> Orientadora_No_Esta
+Orientadora_No_Esta --> Vaga_Colegio
+Vaga_Colegio --> Encuentro_Profe
+
+%% Capítulo 2 – Relaciones afectivas
+Mensaje_Pareja -->|Reclamos intensos| Bloqueo_Pareja[Su pareja la bloquea sin aviso]
+Bloqueo_Pareja --> Crisis_Silencio[Camila entra en crisis emocional]
+Crisis_Silencio --> Decide_Faltar[Decide no ir a clase ese día]
+Decide_Faltar --> Puente[Camina hacia el puente sintiéndose vacía]
+
+Mensaje_Pareja -->|No responder aún| Amiga_Nota[Su amiga la ve ansiosa desde lejos]
+Amiga_Nota --> Conversa_Breve[Charla breve que la calma momentáneamente]
+Conversa_Breve --> Fiesta[Invitación a fiesta de integración]
+
+Mensaje_Pareja -->|Se llena de inseguridad| Llora_Camino
+Llora_Camino --> Escape_Hogar
+
+Mensaje_Pareja -->|Buscar a su amiga| Habla_Cafeteria
+Habla_Cafeteria --> Visita_Universidad
+
+%% Capítulo 3 – Familia
+Discusion_Notas -->|Gritar| Discusion_Violenta[Discusión escala y los vecinos llaman a la policía]
+Discusion_Violenta --> Escape_Hogar
+
+Discusion_Notas -->|Encerrarse a llorar| Llanto_Habitacion[Camila se encierra en su habitación]
+Llanto_Habitacion --> Insomnio
+
+Discusion_Notas -->|Hablar con culpa| Padre_Frío[El padre responde de forma distante]
+Padre_Frío --> Taller_Arte[Camila asiste a taller de escritura y arte]
+
+Discusion_Notas -->|Reaccionar agresivamente| Madre_Llora[La madre se pone a llorar en silencio]
+Madre_Llora --> Autolesion[Camila se autolesiona esa noche]
+
+Escape_Hogar -->|Ir a casa amiga| Suena_Pelea[Sueña con pelea familiar durante la noche]
+Suena_Pelea --> Fiesta
+
+Escape_Hogar -->|Vagar sin rumbo| Lluvia_Ciudad[Camina sola bajo la lluvia]
+Lluvia_Ciudad --> Puente
+
+Escape_Hogar -->|Llamar alguien| Pareja_Desganada[Su pareja contesta sin entusiasmo]
+Pareja_Desganada --> Mensaje_Pareja
+
+%% Capítulo 4 – Vida académica
+Trabajo_Grupo -->|Boicotear el trabajo| Confrontacion[Un compañero la confronta directamente]
+Confrontacion --> Tension_Grupo[Discusión tensa y mirada incómoda del grupo]
+Tension_Grupo --> Silencio_Total[Camila guarda silencio el resto del día]
+
+Trabajo_Grupo -->|Tomar la iniciativa| Gana_Respeto
+Gana_Respeto --> Eleccion_Uni
+
+Trabajo_Grupo -->|Quedarse callada| Invisible
+Invisible --> Insomnio
+
+Trabajo_Grupo -->|Fomentar unión| Afinidad_Compa
+Afinidad_Compa --> Amigo_Inesperado
+
+Fiesta -->|Ir sola| Ropa_Verguenza[Camila siente vergüenza por cómo va vestida]
+Ropa_Verguenza --> Cita_Tensa[Conversación incómoda con su pareja]
+
+Fiesta -->|No asistir| Estudia_Sola[Pasa la noche sola estudiando]
+Estudia_Sola --> Recuerdo_Traumatico
+
+Fiesta -->|Ir con su amiga| Conversa_Futuro[Conversan sobre lo que quieren estudiar]
+Conversa_Futuro --> Amiga_Opina[La amiga opina sobre su relación de pareja]
+
+Fiesta -->|Invitar pareja| Pareja_No_Confirma[La pareja no confirma ni responde]
+Pareja_No_Confirma --> Mensaje_Pareja
+
+%% Capítulo 5 – Crisis personales
+Insomnio -->|Autolesionarse| Herida_Visible[Camila se hiere el brazo]
+Herida_Visible --> Profesora_Nota[La profesora nota algo raro]
+Profesora_Nota --> Encuentro_Profe
+
+Insomnio -->|Llamar a alguien| Nadie_Contesta[El celular suena sin respuesta]
+Nadie_Contesta --> Mensaje_Pareja
+
+Insomnio -->|Escribir| Poema_Dolor[Escribe un poema que la hace llorar]
+Poema_Dolor --> Taller_Arte
+
+Insomnio -->|Salir a caminar| Frio_Madrugada[Siente el frío de la madrugada]
+Frio_Madrugada --> Silencio_Total
+
+%% Capítulo 6 – Relaciones periféricas
+Amigo_Inesperado -->|Rechazarlo| Culpa_Rechazo[Siente culpa por haber sido cortante]
+Culpa_Rechazo --> Aislamiento_Banio[Se encierra en el baño del colegio]
+Aislamiento_Banio --> Silencio_Total
+
+Amigo_Inesperado -->|Aceptar su amistad| Conversa_Vidas[Conversan sobre cosas personales]
+Conversa_Vidas --> Entrevista_Trabajo[Camila se anima a buscar un empleo]
+
+Amigo_Inesperado -->|Contarle algo íntimo| Apoyo_Inesperado[Recibe un apoyo genuino]
+Apoyo_Inesperado --> Amiga_Opina
+
+%% Capítulo 7 – Decisiones a futuro
+Entrevista_Trabajo -->|Mentir para impresionar| Contratada_Ansiedad[La contratan pero se siente impostora]
+Contratada_Ansiedad --> Puente
+
+Entrevista_Trabajo -->|Ser honesta| No_Contratada[No la contratan, pero se siente en paz]
+No_Contratada --> Cita_Tensa
+
+Entrevista_Trabajo -->|Mostrar nerviosismo| Mirada_Pena[El entrevistador la mira con pena]
+Mirada_Pena --> Recuerdo_Traumatico
+
+%% Capítulo 8 – Crisis terminal
+Silencio_Total -->|Ver series| Horas_Pantalla[Mira sin atención por horas]
+Horas_Pantalla --> Puente
+
+Silencio_Total -->|Dormir días| Despierta_Dolor[Se levanta con dolor corporal]
+Despierta_Dolor --> Puente
+
+Silencio_Total -->|Salir sin rumbo| Ciudad_Sin_Destino[Camina sin destino claro]
+Ciudad_Sin_Destino --> Puente
+
+Recuerdo_Traumatico --> Puente
+Autolesion --> Puente
+Taller_Arte --> Puente
+Abandono_Escolar --> Puente
+Visita_Universidad --> Puente
+Eleccion_Uni --> Puente
+
+%% Crisis terminal – Nudo
+Puente -->|Saltar| Sesion_Terapia[Primera sesión terapéutica – aún con vida]
+Puente -->|Llamar a alguien| Llamada_Angustia[Camila llama sin poder hablar]
+Llamada_Angustia --> Sesion_Terapia
+Puente -->|Ir a urgencias| Urgencias[Camila llega en shock emocional]
+Urgencias --> Sesion_Terapia
+
+%% TERAPIA Y FINALES
+subgraph Terapia_Final[Proceso terapéutico]
+
+  Sesion_Terapia --> Diagnostico[Sesión 1: Diagnóstico emocional]
+  Diagnostico --> Regulacion[Sesión 2: Regulación emocional]
+  Regulacion --> Habilidades[Sesión 3: Habilidades interpersonales]
+  Habilidades --> Integracion[Sesión 4: Integración personal]
+
+  Integracion -->|Estabilidad| Final_Estable[🎯 Final: Camila encuentra estabilidad emocional]
+  Integracion -->|Aún insegura| Final_Proceso[🌱 Final: Camila sigue en proceso de recuperación]
+  Integracion -->|Recaídas| Final_Recaidas[🌧️ Final: Camila tiene recaídas pero continúa en terapia]
+  Final_Recaidas --> Sesion_Terapia
+end
